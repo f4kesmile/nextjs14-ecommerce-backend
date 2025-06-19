@@ -3,7 +3,7 @@ import midtransClient from "midtrans-client";
 import db from "@/lib/db";
 
 const corsHeaders = {
-  "Access-Control-Allow-Origin": "http://localhost:3001", // Ganti dengan domain frontend Anda
+  "Access-Control-Allow-Origin": "https://ecommerce-frontend-henna-one.vercel.app", // Ganti dengan domain frontend Anda
   "Access-Control-Allow-Methods": "POST, OPTIONS",
   "Access-Control-Allow-Headers": "Content-Type",
 };
